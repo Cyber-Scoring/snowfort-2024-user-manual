@@ -72,6 +72,8 @@ Depending on the request type and result, your score will be adjusted accordingl
 
 There is a scoring cap applied for each request pair/vulnerability. A maximum score of 100 and a minimum score of -10 can be achieved per vulnerability/request pair. For example, if a service goes down for a long time and 5 vulnerabilities are being tested, the score for that service can only drop to -50.
 
+In the event of a tie, the team who reached the tied score first will be considered the winner.
+
 ## Infrastructure
 
 Attempting to attack the infrastructure in any manner will result in immediate disqualification. The only exception is you are allowed to exploit your teams' services (so that you may test for vulns).
