@@ -6,7 +6,7 @@
 **When?** March 16th, 2024, 11am to 7pm EDT  
 **Where?** Online
 
-Snowfort 2024 is a **defensive** cybersecurity competition where **40 teams across the globe** are given **five services with up to five vulnerabilities each**.
+Snowfort 2024 is a **defensive** cybersecurity competition where **40 teams across the globe** are given **five services with five vulnerabilities each**.
 
 Website: https://snowfort2024.cyberscoring.ca/
 Discord: https://discord.com/invite/RNKB2ekFXY
@@ -76,7 +76,7 @@ In the event of a tie, the team who reached the tied score first will be conside
 
 ## Infrastructure
 
-Attempting to attack the infrastructure in any manner will result in immediate disqualification. You are allowed to test exploits/payloads against your own services (so that you may test for vulns). However, this is not recommended as it may impact your uptime in the event your crash your service.
+Attempting to attack the infrastructure in any manner will result in immediate disqualification. You are allowed to test exploits/payloads against your own services (so that you may test for vulns). However, this is not recommended as it may impact your uptime in the event your crash your service. (Don't test in production)
 
 ### Virtual Machines
 
