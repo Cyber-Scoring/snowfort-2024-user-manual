@@ -6,7 +6,7 @@
 **When?** March 16th, 2024, 11am to 7pm EDT  
 **Where?** Online
 
-Snowfort 2024 is a **defensive** cybersecurity competition where **40 teams across the globe** are given **five services with five vulnerabilities each**.
+Snowfort 2024 is a **defensive** cybersecurity competition where **40 teams across the globe** are given **five services with up to five vulnerabilities each**.
 
 Website: https://snowfort2024.cyberscoring.ca/
 Discord: https://discord.com/invite/RNKB2ekFXY
