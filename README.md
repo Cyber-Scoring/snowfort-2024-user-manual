@@ -76,7 +76,7 @@ In the event of a tie, the team who reached the tied score first will be conside
 
 ## Infrastructure
 
-Attempting to attack the infrastructure in any manner will result in immediate disqualification. The only exception is you are allowed to exploit your teams' services (so that you may test for vulns).
+Attempting to attack the infrastructure in any manner will result in immediate disqualification. You are allowed to test exploits/payloads against your own services (so that you may test for vulns). However, this is not recommended as it may impact your uptime in the event your crash your service.
 
 ### Virtual Machines
 
@@ -99,7 +99,7 @@ Other details:
 
 ### Services
 
-Each service will be contained within a folder in the `/home/player` directory. Each service will consist of a `docker-compose.yaml` with one or more containers. Each service will also have an initial backup stored in the `/home/player/backups` directory.
+Each service will be contained within a folder in the `/home/player` directory. All services will consist of a `docker-compose.yaml` with one or more containers. Each service will also have an initial backup stored in the `/home/player/backups` directory. There are no restrictions as to how you may patch your services, however the goal is to not disrupt the intended flow for clients and to maintain uptime. (i.e. Don't break/remove functionality or keep your services down for too long) 
 
 ### VPN
 
@@ -109,4 +109,4 @@ All teams will need to connect to the competition VPN to access their virtual ma
 
 While not an exact illustration of the network, this gives a general idea as to the layout:
 
-![[./images/network.png]]
+![network](/images/network.png)
