@@ -70,7 +70,7 @@ Depending on the request type and result, your score will be adjusted accordingl
 | Malicious    | Failure | +1          |
 | Malicious    | Down    | -1          |
 
-There is a scoring cap applied for each request pair/vulnerability. A maximum score of 100 and a minimum score of -10 can be achieved per vulnerability/request pair. For example, if a service goes down for a long time and 5 vulnerabilities are being tested, the score for that service can only drop to -50.
+There is a scoring cap applied for each request pair/vulnerability. A maximum score of 300 and a minimum score of -30 can be achieved per vulnerability/request pair. For example, if a service goes down for a long time and 5 vulnerabilities are being tested, the score for that service can only drop to -150 (-30 * 5). This also means the total maximum score for a service is 1500 and the total maximum score in the competition is 7500.
 
 In the event of a tie, the team who reached the tied score first will be considered the winner.
 
